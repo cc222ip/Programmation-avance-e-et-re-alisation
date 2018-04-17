@@ -1,0 +1,20 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf760
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\csgray\c0;\csgray\c100000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25400\viewh13120\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 - Le constructeur de \'ab\'a0Grid()\'a0\'bb va r\'e9cup\'e9rer les valeurs de la grille de sudoku dans le fichier \'ab\'a0Grille\'a0\'bb et copie ces m\'eames valeurs dans un tableau en 2 dimensions. Bien s\'fbr, pour ce faire, il est indispensable d\'92allouer dynamiquement ce dernier pour ensuite lib\'e9rer l\'92espace m\'e9moire \'e0 l\'92aide du destructeur \'ab\'a0~Grid()\'a0\'bb.\
+\
+- La fonction \'ab\'a0Afficher()\'a0\'bb permet d\'92afficher la grille de Sudoku en rempla\'e7ant les cases vides d\'92une grille habituelle par des \'910\'92. Un brin de mise en page permet de repr\'e9senter une grille des plus lisibles sur le terminal.\
+\
+- Les fonctions \'ab\'a0SurLigne(\'85)\'a0\'bb, \'ab\'a0SurColonne(\'85)\'a0\'bb et \'ab\'a0SurBloc(..)\'a0\'bb permettent de tester l\'92existence d\'92une valeur respectivement sur sa ligne, sa colonne ou sa r\'e9gion. Si la valeur test\'e9e est d\'e9j\'e0 dans la zone en question, les fonctions renvoient \'ab\'a0false\'a0\'bb, dans le cas contraire, le retour est \'ab\'a0true\'a0\'bb. Ces fonctions vont aider le programme final \'e0 placer les bonnes valeurs au bon endroit.\
+\
+- La fonction \'ab\'a0Valide(\'85)\'a0\'bb permet de tester si une valeur peut \'eatre pos\'e9 sur la case test\'e9 en combinant les trois fonctions vues pr\'e9c\'e9demment.\
+\
+- La fonction \'ab\'a0Resolution1(\'85)\'a0\'bb permet de r\'e9soudre le Sudoku en testant la valeur qu\'92apr\'e8s l\'92avoir affect\'e9 \'e0 une case. Selon le compilateur, cette fonction serait ex\'e9cut\'e9e en \cf2 \cb3 \CocoaLigature0 0.000408 secondes.\
+\
+- \cf0 \cb1 \CocoaLigature1 La fonction \'ab\'a0Resolution2(\'85)\'a0\'bb permet de r\'e9soudre le Sudoku en testant la valeur avant de l\'92affect\'e9 \'e0 une case. Selon le compilateur, cette fonction serait ex\'e9cut\'e9e en \cf2 \cb3 \CocoaLigature0 0.000507 secondes.\
+\
+Contrairement \'e0 ce que l\'92on pourrait penser, il est moins long pour le compilateur de poser une valeur pour ensuite la tester.}
